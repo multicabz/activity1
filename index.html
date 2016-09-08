@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: rgb(255, 186, 2);
+            font-family: tahoma;
+            font-size: 14px;
+        }
+        #container{
+            width: 1200px;
+            margin: auto;
+        }
+        p{
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        #nav{
+            background-color: #d8d8d8;
+            margin-bottom: 25px;
+            padding: 10px;
+            text-align: center;
+        }
+        #section_left{
+            background-color: #d6b395;
+            display: inline-block;
+            width: 500px;
+            vertical-align: top;
+        }
+        #section_right{
+            background-color: #d46e51;
+            display: inline-block;
+            width: 58%;
+        }
+        #section_right header{
+            background-color: lime;
+        }
+        #footer{
+            background-color: #d13a1a;
+            text-align: center;
+            margin-top: 25px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+            <nav id="nav">nav</nav>
+
+            <section id="section_left">
+                <header>header</header>
+                <nav class="nav2">nav</nav>
+                <footer>footer</footer>
+            </section>
+
+            <section id="section_right">
+                    <header>header</header>
+                    <article>
+                        <header>header</header>
+                        <p>p</p>
+                        <p>p</p>
+                        <footer>footer</footer>
+                    </article>
+
+                    <article>
+                        <header>header</header>
+                        <p>p</p>
+                        <aside>p</aside>
+                        <footer>footer</footer>
+                    </article>
+
+                    <footer>footer</footer>
+            </section>
+
+            <footer id="footer">
+                footer
+            </footer>
+        </section>
+</body>
+</html>
